@@ -1,0 +1,100 @@
+================================================================================
+COVER LETTER - PLAIN TEXT (copy-paste version) - OJT APPLICATION
+Marcus Mallari | 12 November 2026
+================================================================================
+
+Replace every [BRACKETED] field before sending.
+The formatted versions (Word + PDF) are in this folder:
+  Marcus_Mallari_Cover_Letter.docx
+  Marcus_Mallari_Cover_Letter.pdf
+
+
+MARCUS MALLARI
+Business Informatics Student | Web Developer | Project Manager
+0953 800 6480 · maxwellmallari00@gmail.com · Puncan, Carranglan, Nueva Ecija, Philippines
+Portfolio: https://my-node-app-2-xoqr.onrender.com
+
+
+[DATE]
+
+[Hiring Manager Name]
+[Company Name]
+[Company Address]
+
+Re: Application for On-the-Job Training (OJT)
+
+Dear [Mr./Ms. Last Name],
+
+I am writing to apply for an On-the-Job Training (OJT) opportunity at [Company
+Name]. As a fourth-year Bachelor of Science in Information Technology student
+majoring in Business Informatics at PHINMA Araullo University, I bring a pairing
+that is increasingly uncommon in this field: the technical fluency to build and
+deploy working systems, and the business analysis discipline to make sure those
+systems solve the right problem first.
+
+That pairing shaped every system I have built. For the Smart Scheduling System,
+which I led as Project Manager while developing it hands-on, the brief was never
+simply "build a scheduler" - manual planning made conflicts easy to miss and
+updates slow to communicate. The system now centralizes schedules, detects
+conflicts automatically, and pairs with an AI assistant and inventory management.
+For the Shoe Ordering System, I translated a store's catalog and order flow into
+an online experience where customers browse products, review details, and place
+orders. For the Simple Payroll Management System, I implemented the logic that
+computes employee pay, records deductions, and maintains payout history.
+
+My recent professional development reinforces the technical side of that pairing:
+three Oracle University certifications earned in 2025 - Analytics Cloud, Cloud
+Infrastructure Networking, and Cloud Database Services - giving me grounded
+familiarity with the cloud, networking, and database platforms enterprise systems
+run on.
+
+Since 2024 I have also served as Project Manager for student academic projects -
+coordinating timelines and milestones, delegating responsibilities, supporting
+team communication, and handling documentation and reporting in Microsoft Office.
+I am comfortable owning delivery while still writing the code myself.
+Independently, I build and deploy my own tools: this portfolio is a full-stack
+Next.js, TypeScript, and Tailwind CSS application with a secured admin dashboard,
+a full API layer, and an integrated AI assistant.
+
+What draws me to [Company Name] is [your team's work on X / your approach to Y].
+I would welcome the chance to contribute this combination of business
+understanding and technical execution to your team.
+
+I am available to begin on [START DATE] and can commit to [HOURS PER WEEK] for
+the full program, as OJT is a requirement for completing my degree. I have
+enclosed my resume and would be glad to walk you through any of these projects
+live. Thank you for your time and consideration.
+
+
+Sincerely,
+
+Marcus Mallari
+0953 800 6480 · maxwellmallari00@gmail.com
+
+Enclosure: Resume
+
+
+================================================================================
+QUICK FILL-IN CHECKLIST
+================================================================================
+[ ] [DATE]                    -> today's date, e.g. "12 November 2026"
+[ ] [Hiring Manager Name]     -> the recruiter's name, if the job post lists one
+[ ] [Company Name]            -> full company name
+[ ] [Company Address]         -> city/province (full street address is optional)
+[ ] [Mr./Ms. Last Name]       -> use "Mr./Ms." if you are unsure of their title
+[ ] [START DATE]              -> your OJT start date, e.g. "15 December 2026"
+[ ] [HOURS PER WEEK]          -> e.g. "20 hours" or "full-time, 5 days a week"
+[ ] [your team's work on X...] -> 1 specific, genuine reason. Examples:
+                                 "your team's work on streamlining manual
+                                 workflows" / "your approach to mentoring
+                                 interns" / "your use of Oracle Cloud in
+                                 internal operations"
+
+OJT-SPECIFIC CHECKLIST
+[ ] Confirm your required hours with your academic coordinator before you send
+[ ] If the company needs a Memorandum of Agreement with PHINMA Araullo
+    University, mention your coordinator's name/contact in the email
+[ ] State your availability early - it is the first thing an OJT employer screens
+[ ] Mention that OJT is a degree requirement; it signals you will commit
+[ ] After filling this in, open the .docx, make the same edits, and export to PDF
+    (File > Save As > PDF) so the PDF you attach matches your edits

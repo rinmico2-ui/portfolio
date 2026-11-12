@@ -1,0 +1,293 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Design tokens — "Classic × Contemporary"
+   Editorial / Swiss-minimal identity: Warm Ivory, Deep Forest, Antique Gold
+--------------------------------------------------------------------------- */
+:root {
+  /* Surfaces */
+  --bg-primary: #f3f0e8;        /* Warm Ivory */
+  --bg-secondary: #e8e4d9;      /* Warm Stone */
+  --bg-card: #ffffff;           /* White content surfaces */
+  --bg-navy: #17382f;           /* Dark Evergreen deep band */
+  --bg-navy-soft: #1e453a;
+
+  /* Brand */
+  --accent-primary: #244c40;    /* Deep Forest Green */
+  --accent-secondary: #b58b55;  /* Antique Gold */
+  --teal: #56685a;              /* deep sage — quiet text accent */
+  --teal-deep: #465849;
+  --sage: #aab6a5;              /* Muted Sage */
+  --on-accent: #f3f0e8;
+
+  /* Text */
+  --text-primary: #202b27;      /* Graphite */
+  --text-secondary: #5c6962;    /* graphite/sage blend */
+  --text-on-navy: #f3f0e8;
+  --text-on-navy-muted: #aab6a5;
+
+  /* Lines */
+  --border: #dcd7c8;
+  --border-strong: #c7c1ae;
+
+  /* Footer */
+  --footer-bg: #17382f;
+  --footer-fg: #f3f0e8;
+
+  /* Radii — sharp, architectural */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --radius-xl: 8px;
+}
+
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-navy: var(--bg-navy);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-teal: var(--teal);
+  --color-teal-deep: var(--teal-deep);
+  --color-sage: var(--sage);
+  --color-on-accent: var(--on-accent);
+  --color-text-primary: var(--text-primary);
+  --color-graphite: #202b27;
+  --color-text-secondary: var(--text-secondary);
+  --color-text-on-navy: var(--text-on-navy);
+  --color-text-on-navy-muted: var(--text-on-navy-muted);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-footer-bg: var(--footer-bg);
+  --color-footer-fg: var(--footer-fg);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-dm-serif);
+  --font-mono: var(--font-dm-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent-primary);
+  color: var(--on-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-secondary);
+  outline-offset: 3px;
+}
+
+/* Playfair headings — optical sizing handled by the font itself */
+.font-display {
+  letter-spacing: -0.015em;
+}
+
+.rule {
+  border-top: 1px solid var(--border);
+}
+
+section[id] {
+  scroll-margin-top: 4.5rem;
+}
+
+/* Decorative dotted grid */
+.dot-grid {
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--accent-primary) 15%, transparent) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+}
+
+.dot-grid-light {
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--text-on-navy) 18%, transparent) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+}
+
+/* Antique gold marker behind text */
+.swipe {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--accent-secondary) 38%, transparent) 0 0.34em,
+    transparent 0.34em
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Editorial drop cap */
+.dropcap::first-letter {
+  font-family: var(--font-dm-serif), Georgia, serif;
+  font-weight: 500;
+  font-size: 3.6em;
+  line-height: 0.78;
+  float: left;
+  padding-right: 0.14em;
+  padding-top: 0.06em;
+  color: var(--accent-primary);
+}
+
+/* Outlined ghost numerals */
+.ghost-numeral {
+  color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--accent-primary) 26%, transparent);
+}
+
+.ghost-numeral-dark {
+  color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--text-on-navy) 22%, transparent);
+}
+
+/* Fading hairline */
+.hairline {
+  background-image: linear-gradient(
+    to right,
+    var(--accent-secondary),
+    color-mix(in srgb, var(--accent-secondary) 0%, transparent)
+  );
+}
+
+/* Animated underline for links */
+.underline-grow {
+  background-image: linear-gradient(var(--accent-secondary), var(--accent-secondary));
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  background-size: 0% 2px;
+  transition: background-size 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+  padding-bottom: 3px;
+}
+.underline-grow:hover,
+.underline-grow:focus-visible {
+  background-size: 100% 2px;
+}
+
+/* Line-style form inputs (contact section) */
+.line-input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--border-strong);
+  border-radius: 0;
+  padding: 0.75rem 0.125rem;
+  transition: border-color 0.25s ease, box-shadow 0.35s ease;
+}
+.line-input::placeholder {
+  color: color-mix(in srgb, var(--text-secondary) 70%, transparent);
+}
+.line-input:focus {
+  outline: none;
+  box-shadow: 0 1px 0 0 var(--accent-secondary);
+  border-bottom-color: var(--accent-secondary);
+}
+
+/* Vertical writing for captions */
+.vertical-label {
+  writing-mode: vertical-rl;
+}
+
+/* Card elevations */
+.card-shadow {
+  box-shadow: 0 24px 60px -30px rgba(23, 56, 47, 0.35);
+}
+.card-shadow-hover {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card-shadow-hover:hover {
+  box-shadow: 0 32px 70px -30px rgba(23, 56, 47, 0.45);
+}
+
+/* Marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee-wrap {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee var(--marquee-duration, 46s) linear infinite;
+}
+
+.marquee-wrap:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Slow rotation for circular text */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.spin-slow {
+  animation: spin-slow 26s linear infinite;
+}
+
+/* Gentle float */
+@keyframes float-soft {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.float-soft {
+  animation: float-soft 7s ease-in-out infinite;
+}
+
+/* Availability pulse */
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-secondary) 55%, transparent); }
+  50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent-secondary) 0%, transparent); }
+}
+.pulse-dot {
+  animation: pulse-dot 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .marquee-track { animation: none !important; }
+  .spin-slow { animation: none !important; }
+  .float-soft { animation: none !important; }
+  .pulse-dot { animation: none !important; }
+}
+
+/* ---------------------------------------------------------------------------
+   Progressive-enhancement safety net.
+   Entrance-animated elements are server-rendered with opacity: 0. If the
+   client bundle never runs (no JS) or React never hydrates, force the
+   content visible instead of leaving a blank page.
+--------------------------------------------------------------------------- */
+html:not([data-js]) [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+@keyframes reveal-fallback {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+html[data-js]:not([data-hydrated]) [data-reveal] {
+  animation: reveal-fallback 0.6s ease-out 4s forwards;
+}

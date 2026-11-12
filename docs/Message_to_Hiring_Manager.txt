@@ -1,0 +1,95 @@
+================================================================================
+MESSAGE TO THE HIRING MANAGER - OJT APPLICATION
+Marcus Mallari | 12 November 2026
+================================================================================
+
+Short versions. Replace every [BRACKETED] field, then send.
+Attach: Marcus_Mallari_Cover_Letter.pdf + Marcus_Mallari_Resume_Updated.pdf
+
+
+================================================================================
+VERSION 1 - EMAIL (use this one)
+================================================================================
+
+Subject: OJT Application - Marcus Mallari | Business Informatics (BSIT, 4th Year)
+
+
+Dear [Mr./Ms. Last Name],
+
+I hope this message finds you well. I am Marcus Mallari, a fourth-year BSIT student majoring in Business Informatics at PHINMA Araullo University, and I am writing to apply for an On-the-Job Training (OJT) opportunity at [Company Name].
+
+I am available to start on [DATE] and can commit to [hours per week] for the full [length] program, as OJT is required to complete my degree. I have hands-on experience building and deploying business systems - a smart scheduling system with an AI assistant, an online ordering platform, and a payroll management system - and I am certified by Oracle University in Analytics Cloud, Cloud Infrastructure Networking, and Cloud Database Services.
+
+My resume, cover letter, and live portfolio are attached. I would be glad to schedule an interview at your convenience.
+
+Thank you for your time and consideration.
+
+Best regards,
+Marcus Mallari
+0953 800 6480 | maxwellmallari00@gmail.com
+Portfolio: https://my-node-app-2-xoqr.onrender.com
+
+
+================================================================================
+VERSION 2 - LINKEDIN MESSAGE
+================================================================================
+
+Hi [Mr./Ms. Last Name],
+
+I am Marcus Mallari, a fourth-year BSIT student majoring in Business Informatics at PHINMA Araullo University, and I would like to apply for an On-the-Job Training (OJT) position at [Company Name].
+
+I build and deploy business systems - a smart scheduling system with an AI assistant, an online ordering platform, and a payroll system - and I hold three Oracle Cloud certifications. I am available to start on [DATE] and would welcome a short interview.
+
+Resume, cover letter, and portfolio: https://my-node-app-2-xoqr.onrender.com
+
+Thank you,
+Marcus Mallari
+0953 800 6480
+
+
+================================================================================
+VERSION 3 - SHORT DM (SMS / Messenger / job-board chat)
+================================================================================
+
+Hi [Mr./Ms. Last Name], Marcus Mallari here - a 4th-year BSIT student (Business Informatics) at PHINMA Araullo University, applying for an OJT position at [Company Name]. I have built and deployed several business systems and hold three Oracle Cloud certifications. Portfolio: https://my-node-app-2-xoqr.onrender.com - I would be glad to chat. Thank you!
+
+
+================================================================================
+FOLLOW-UP (5-7 business days later, if no reply)
+================================================================================
+
+Subject: Following up - OJT Application - Marcus Mallari
+
+Dear [Mr./Ms. Last Name],
+
+I wanted to follow up on my OJT application, submitted on [DATE]. I remain very interested and would be glad to provide anything else you need.
+
+Resume, cover letter, and portfolio: https://my-node-app-2-xoqr.onrender.com
+
+Thank you, and I look forward to hearing from you.
+
+Best regards,
+Marcus Mallari
+0953 800 6480
+
+
+================================================================================
+BEFORE YOU SEND
+================================================================================
+[ ] [Mr./Ms. Last Name]     -> the recruiter's name, if you have it
+[ ] [Company Name]         -> full company name
+[ ] [DATE]                 -> your OJT start date
+[ ] [hours per week]       -> e.g. "20 hours" or "full-time"
+[ ] [length]               -> e.g. "500-hour" or "6-month"
+
+Attachments
+[ ] Marcus_Mallari_Cover_Letter.pdf
+[ ] Marcus_Mallari_Resume_Updated.pdf
+
+Notes for an OJT application
+[ ] State your availability and hours early - this is the first thing they screen for
+[ ] Say the OJT is a degree requirement; it signals you will commit and stay
+[ ] Some companies must file a MoA with PHINMA Araullo University - mention your
+    academic coordinator's name/contact if you already know it
+[ ] Send weekdays, 9:00-11:00 AM or 2:00-4:00 PM
+[ ] Follow up once after 5-7 business days
