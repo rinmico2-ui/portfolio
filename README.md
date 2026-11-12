@@ -40,6 +40,27 @@ npm run lint:web     # eslint
 
 ## Deployment
 
-- Web: Vercel (set the env vars from `.env.example` in the dashboard)
-- Storage: on Vercel the JSON store is ephemeral — point `SUPABASE_*` at your database or attach a volume for `.data/`
+**Live site:** https://portfolio-kappa-six-u5zrf3x6gl.vercel.app
+
+- Web: Vercel (team `racs`, project `portfolio`) — pushes to `main` auto-deploy
+- Build config lives in `vercel.json`; the Vercel project's **Root Directory** is `apps/web`
+  while `installCommand` runs at the repo root so npm workspaces resolve `@portfolio/*`
+- Environment variables are set for `production` and `preview` (`vercel env ls`).
+  Secrets (`ADMIN_PASSWORD`, `AUTH_SECRET`, `CAPTCHA_SECRET`, `SMTP_PASS`,
+  `GEMINI_API_KEY`) are stored as encrypted secrets
+- Storage: on Vercel the JSON store is ephemeral — `apps/web/.data/db.json` is read
+  at runtime but admin writes do not persist. Point `SUPABASE_*` at a database for
+  durable editing
+- The local JSON store is traced into the deployment via `outputFileTracingIncludes`
+  in `apps/web/next.config.ts`; without it the deployed site falls back to the
+  in-code seed
 - Mobile: EAS (`npx expo build`)
+
+### Lockfile note
+
+The root `package-lock.json` is authoritative (npm workspaces). npm only records
+optional platform binaries for the host OS, so the Linux builds of
+`@tailwindcss/oxide`, `@next/swc` and `@unrs/resolver-binding` were merged in
+manually. If you ever regenerate the lockfile with `npm install` on Windows, re-add
+those entries or the Vercel build fails with `Cannot find native binding`.
+
