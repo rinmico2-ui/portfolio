@@ -1,4 +1,4 @@
-================================================================================
+﻿================================================================================
 COVER LETTER - PLAIN TEXT (copy-paste version) - OJT APPLICATION
 Marcus Mallari | 12 November 2026
 ================================================================================
@@ -11,8 +11,8 @@ The formatted versions (Word + PDF) are in this folder:
 
 MARCUS MALLARI
 Business Informatics Student | Web Developer | Project Manager
-0953 800 6480 · maxwellmallari00@gmail.com · Puncan, Carranglan, Nueva Ecija, Philippines
-Portfolio: https://my-node-app-2-xoqr.onrender.com
+0953 800 6480 Â· maxwellmallari00@gmail.com Â· Puncan, Carranglan, Nueva Ecija, Philippines
+Portfolio: https://portfolio-racs.vercel.app
 
 
 [DATE]
@@ -69,7 +69,7 @@ live. Thank you for your time and consideration.
 Sincerely,
 
 Marcus Mallari
-0953 800 6480 · maxwellmallari00@gmail.com
+0953 800 6480 Â· maxwellmallari00@gmail.com
 
 Enclosure: Resume
 

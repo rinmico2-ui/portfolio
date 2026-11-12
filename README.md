@@ -40,7 +40,7 @@ npm run lint:web     # eslint
 
 ## Deployment
 
-**Live site:** https://portfolio-kappa-six-u5zrf3x6gl.vercel.app
+**Live site:** https://portfolio-racs.vercel.app
 
 - Web: Vercel (team `racs`, project `portfolio`) — pushes to `main` auto-deploy
 - Build config lives in `vercel.json`; the Vercel project's **Root Directory** is `apps/web`

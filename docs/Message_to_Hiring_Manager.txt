@@ -1,4 +1,4 @@
-================================================================================
+﻿================================================================================
 MESSAGE TO THE HIRING MANAGER - OJT APPLICATION
 Marcus Mallari | 12 November 2026
 ================================================================================
@@ -27,7 +27,7 @@ Thank you for your time and consideration.
 Best regards,
 Marcus Mallari
 0953 800 6480 | maxwellmallari00@gmail.com
-Portfolio: https://my-node-app-2-xoqr.onrender.com
+Portfolio: https://portfolio-racs.vercel.app
 
 
 ================================================================================
@@ -40,7 +40,7 @@ I am Marcus Mallari, a fourth-year BSIT student majoring in Business Informatics
 
 I build and deploy business systems - a smart scheduling system with an AI assistant, an online ordering platform, and a payroll system - and I hold three Oracle Cloud certifications. I am available to start on [DATE] and would welcome a short interview.
 
-Resume, cover letter, and portfolio: https://my-node-app-2-xoqr.onrender.com
+Resume, cover letter, and portfolio: https://portfolio-racs.vercel.app
 
 Thank you,
 Marcus Mallari
@@ -51,7 +51,7 @@ Marcus Mallari
 VERSION 3 - SHORT DM (SMS / Messenger / job-board chat)
 ================================================================================
 
-Hi [Mr./Ms. Last Name], Marcus Mallari here - a 4th-year BSIT student (Business Informatics) at PHINMA Araullo University, applying for an OJT position at [Company Name]. I have built and deployed several business systems and hold three Oracle Cloud certifications. Portfolio: https://my-node-app-2-xoqr.onrender.com - I would be glad to chat. Thank you!
+Hi [Mr./Ms. Last Name], Marcus Mallari here - a 4th-year BSIT student (Business Informatics) at PHINMA Araullo University, applying for an OJT position at [Company Name]. I have built and deployed several business systems and hold three Oracle Cloud certifications. Portfolio: https://portfolio-racs.vercel.app - I would be glad to chat. Thank you!
 
 
 ================================================================================
@@ -64,7 +64,7 @@ Dear [Mr./Ms. Last Name],
 
 I wanted to follow up on my OJT application, submitted on [DATE]. I remain very interested and would be glad to provide anything else you need.
 
-Resume, cover letter, and portfolio: https://my-node-app-2-xoqr.onrender.com
+Resume, cover letter, and portfolio: https://portfolio-racs.vercel.app
 
 Thank you, and I look forward to hearing from you.
 
